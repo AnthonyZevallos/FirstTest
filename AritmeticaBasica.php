@@ -34,3 +34,5 @@
 
     print(division(12,7));
     echo "<br>";
+    
+    ?>
