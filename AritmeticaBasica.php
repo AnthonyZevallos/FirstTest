@@ -15,14 +15,22 @@
     }
 
     print(resta(12,7));
-
-    // git commit -m "gregando multiplicacion"
+    echo "<br>";
+    // git commit -m "agregando multiplicacion"
 
     function multiplicacion($numeroUno,$numeroDos)
     {
         return $numeroUno - $numeroDos;
     }
 
-    print(resta(12,7));
+    print(multiplicacion(12,7));
+    echo "<br>";
+    // git commit -m "agregando division"
 
+    function division($numeroUno,$numeroDos)
+    {
+        return $numeroUno / $numeroDos;
+    }
 
+    print(division(12,7));
+    echo "<br>";
