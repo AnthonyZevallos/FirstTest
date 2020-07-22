@@ -1,17 +1,28 @@
 <?php
 //Aritmética Básica con funciones
-
-    function suma($x, $y)
+//git commit -m "inicializar nuestro landing"
+    function suma($numeroUno, $numeroDos)
     {
-        return $x + $y;
+        return $numeroUno + $numeroDos;
     }
 
     print(suma(12,7));
     echo "<br>";
 
-    function resta($x, $y)
+    function resta($numeroUno, $numeroDos)
     {
-        return $x - $y;
+        return $numeroUno - $numeroDos;
     }
 
     print(resta(12,7));
+
+    // git commit -m "gregando multiplicacion"
+
+    function multiplicacion($numeroUno,$numeroDos)
+    {
+        return $numeroUno - $numeroDos;
+    }
+
+    print(resta(12,7));
+    
+
